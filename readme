@@ -1,0 +1,73 @@
+![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
+
+Powerpoint link: https://prezi.com/view/L2HkNiDOyG5XHc0rGQaM/
+API: https://rapidapi.com/letscrape-6bRBa3QguO5/api/jsearch/playground/apiendpoint_374e27ef-ac8b-4014-a801-29065a6f224b
+Datasetes: https://www.kaggle.com/datasets/atharvasoundankar/impact-of-ai-on-digital-media-2020-2025
+
+ **Global AI Impact Analysis in 10 Countries vs salaries AI engineer**
+
+## **Introduction**
+welcome to my Project. This project explores the global impact of Artificial Intelligence (AI) by analyzing job salary data across 10 countries. The goal is to  **Analysing the correlation between Higher AI engineer salaries and AI maturity** in each country. Data was collected using API queries (Jsearch) from websites providing job listings, focusing on AI job salaries and an existing datasetes.
+
+
+
+## **Data Description**
+
+- **Sources**: Job Salaeries AI and Marketing API (Jsearch)from RapidAPI and existing datasets from Kaggle Datasets
+
+- **Data Collected**:
+  - AI-related job max, min and medien salaries in 10 different countries with updated date
+  - cleaned datasetes revneu AI for different Industry between  2020-2025 
+  -
+
+- **Main Challenges**:
+Find a suitable API and understand how it works
+    
+Clarify API request limits
+Learn how to request relevant data
+Handle data inconsistencies across countries (e.g. currencies, formats)
+Standardize salary formats (hourly, monthly, yearly)
+Understand the existing and cleaned datasets
+
+- **Strengths**:
+  - cleaning and formating the datasets
+  - understand the data
+
+- **Weaknesses**:
+Align year ranges between existing data and API data
+Merge dataframes correctly using matching columns
+Focus on general AI salary data, not industry-specific figures
+
+**Hypothesis**
+Countries with higher median salaries for AI engineers reflect greater AI maturity, as indicated by higher consumer trust in AI and increased revenue growth due to AI adoption. 
+
+**Conclusion**:  
+"Higher AI salaries ≠  Greater AI maturity"
+AI maturity depends on regulatory support and local use cases, not just salaries.
+
+
+## **Methodology**
+1. **Data Collection**:
+   - Used Jsearch API to gather AI  job salary data for 10 countries and Datasetes from Kaggle as csv file about Global Impact of AI (2020–2025)
+2. **Data Cleaning**:
+   - Standardized salary formats (yearly/monthly/hourly -> annual salary) and also for the currency
+   - Filtered out incomplete or irrelevant listings and dictioneries 
+   - drop not related columns
+   
+   - Ensured job titles matched the intended categories (AI)
+   -average of of consumer trust in AI by the different Industries
+3. **Data Analysis**:
+   - Calculated average renenue in each country.
+
+   - Visualized salary comparisons with bar charts and scatter plots.
+4. **Hypothesis Testing**:
+   - Compared salary trends to known to Consumer trust in AI indexes to see if high salaries aligned with AI Maturity and Revenue.
+   - Conducted simple correlation analysis
+
+
+
+
+---
+
+
+
